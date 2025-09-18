@@ -2330,6 +2330,18 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.center {
+		  	text-align: center;
+		  	display: block;
+  		  	margin: 1em auto;
+		}
+
+		.image.center img {
+			display: inline-block;
+			margin: 0 auto;
+			float: none;
+		}	
+
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
